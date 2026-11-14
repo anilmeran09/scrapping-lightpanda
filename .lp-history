@@ -1,0 +1,8 @@
+Open https://quotes.toscrape.com/\n\nExtract the first 5 quotes from the webpage.\n\nFor each quote, collect:\n1. Quote text\n2. Author name\n3. Tags associated with the quote\n\nReturn the results in a clean, readable table.\n\nInstructions:\n- Use the actual content from the webpage.\n- Do not invent or guess missing information.\n- Do not summarize or rewrite the quotes.\n- If a field is unavailable, return null.\n- Confirm how many quotes you successfully extracted.\n- If you cannot access the website or extract the data, explain the error clearly.\n\nThis is a test to verify that browser navigation, webpage inspection, and data extraction are working correctly.
+/goto https://quotes.toscrape.com/\n
+quit
+Open https://quotes.toscrape.com/ and extract the first 5 quotes.\n\nFor each quote, return:\n- Quote text\n- Author name\n- Tags\n\nDisplay the results in a table. Use only data found on the page. Do not invent missing values. Tell me how many quotes were extracted.
+/quit
+Open https://quotes.toscrape.com/ and extract the first 5 quotes, their authors, and tags. Display the results in a table.
+Open https://quotes.toscrape.com/ and extract 5 quotes with their authors and tags in a table.
+hi
